@@ -497,19 +497,6 @@
                 });
         });
     </script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            setInterval(runningTime, 1000);
-            });
-            function runningTime() {
-            $.ajax({
-                url: 'timeScript.html',
-                success: function(data) {
-                $('#runningTime').html(data);
-                },
-            });
-        }
-    </script>
     <script type="text/javascript"> 
         function display_c(){
             var refresh=1000; // Refresh rate in milli seconds
